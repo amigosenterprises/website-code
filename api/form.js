@@ -18,7 +18,7 @@ router.post("/", (req, res) => {
             },
         });
         let info = await transporter.sendMail({
-            to: "saquibaowte97.sa@gmail.com",
+            to: "amigosent17@gmail.com",
             html: `    <div
             style="
               font-family: Helvetica, Arial, sans-serif;
@@ -26,7 +26,7 @@ router.post("/", (req, res) => {
               line-height: 2;
             "
           >
-            <div style="margin: 30px auto; width: 70%; padding: 10px 0">
+            <div style="margin: 30px auto; width: 100%; padding: 10px 0">
               <div style="text-align: center">
                 <a
                   href="https://amigosengineers.com"
